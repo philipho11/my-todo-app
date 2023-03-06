@@ -1,6 +1,5 @@
 import json
 
-print ("Ready to have quiz??")
 with open("questions.json", "r") as file:
     content = file.read()
 
