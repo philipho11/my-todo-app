@@ -1,6 +1,7 @@
 import streamlit as st
 
 st.set_page_config(layout="wide")
+
 col1, col2 = st.columns(2)
 
 with col1:
@@ -9,12 +10,7 @@ with col1:
 with col2:
     st.title("Ardit Sulce")
     content = """
-    Tour Scraper;A program that checks a music band's website and sends an email when 
-    there are new tours.; Helper Chatbot;A chatbot that knows about a specific topic and answers questions
-    regarding that topic.
-    Tour Scraper;A program that checks a music band's website and sends an email when 
-    there are new tours.; Helper Chatbot;A chatbot that knows about a specific topic and answers questions
-    regarding that topic.
+    Hi, I am Ardit! I am a Python programmer, teacher, and founder of PythonHow. I graduated in 2013 with a Master of Science in Geospatial Technologies from the University of Muenster in Germany with a focus on using Python for remote sensing.
+I have worked with companies from various countries, such as the Center for Conservation Geography, to map and understand Australian ecosystems, image processing with the Swiss in-Terra, and performing data mining to gain business insights with the Australian Rapid Intelligence.
     """
     st.info(content)
-
